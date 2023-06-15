@@ -1,0 +1,52 @@
+# Project Information
+site_name: EuroCenter vACC Knowledge Base
+site_url: https://knowledgebase.euc-vacc.net
+site_author: David Lee
+edit_uri: edit/main/docs/
+copyright: Copyright (C) EuroCenter vACC 2023. All Rights Reserved. Not to be used for real world navigation. Flight simulation only.
+
+
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date-localized
+  - mike
+
+  
+# Configuration
+theme:
+  name: material
+  font:
+    text: Mulish
+  palette:
+    scheme: czqo
+  logo: https://euc-vacc.net/assets/img/logo/logo_main.png
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking    
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+  favicon: https://euc-vacc.net/assets/img/logo/favicon.ico
+
+extra:
+  social:
+    - icon: material/home
+      link: https://euc-vacc.net
+      name: EuroCenter vACC Website
+  version:
+    provider: mike
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+repo_url: https://github.com/EuroCenter/knowledgebase
+repo_name: /EuroCenter/knowledgebase
